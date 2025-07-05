@@ -18,3 +18,7 @@ data/
 
 # venv
 .venv
+
+# images
+notebooks/experiments/runs/
+notebooks/experiments/MNIST/
