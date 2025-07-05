@@ -48,6 +48,7 @@ Hyper‑parameters may be adjusted by editing `config.yaml`.
 
 ## Repository Structure
 - `src/vanilla_gan/` – core modules with data loading, model definitions and training logic.
+- `data/` – where datasets and runs would be generated
 - `scripts/` – helper script for launching training.
 - `notebooks/` – Jupyter notebook used for early experiments.
 
@@ -56,6 +57,14 @@ Hyper‑parameters may be adjusted by editing `config.yaml`.
 - PyTorch
 - torchvision
 - matplotlib
+
+## Contributing
+
+Contributions are welcome! Feel free to open issues or submit pull requests.
+
+## Acknowledgements
+
+- [Building a Vanilla GAN with Pytorch](https://medium.com/codex/building-a-vanilla-gan-with-pytorch-ffdf26275b70)
 
 ## License
 This project is released under the MIT License.
