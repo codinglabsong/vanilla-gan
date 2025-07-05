@@ -1,6 +1,6 @@
 import torch.nn as nn
-from config import config
-from utils import get_device
+from vanilla_gan.config import config
+from vanilla_gan.utils import get_device
 
 class Generator(nn.Module):
     """

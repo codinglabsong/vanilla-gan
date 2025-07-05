@@ -2,7 +2,7 @@ import os
 import torch
 from torchvision import transforms
 from torchvision.datasets import MNIST
-from config import config
+from vanilla_gan.config import config
 
 def prepare_dataset():
     """ Prepare dataset through DataLoader """

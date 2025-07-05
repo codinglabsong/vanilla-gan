@@ -14,7 +14,8 @@ build/
 .env
 
 # datasets
-data/
+data/MNIST/
+data/runs/
 
 # venv
 .venv

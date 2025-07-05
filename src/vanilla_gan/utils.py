@@ -16,7 +16,7 @@ def make_directory_for_run():
     print(f"Preparing training run {UNIQUE_RUN_ID}")
     if not os.path.exists(f"{data_dir}/runs"):
         os.mkdir(f"{data_dir}/runs")
-    os.mkdir(f"./runs/{UNIQUE_RUN_ID}")
+    os.mkdir(f"{data_dir}/runs/{UNIQUE_RUN_ID}")
     
 def generate_image(generator, epoch=0, batch=0, device=get_device()):
     """ Genereate subplots with generated examples. """

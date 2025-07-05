@@ -1,6 +1,6 @@
 import torch
 from torch import nn
-from config import config, UNIQUE_RUN_ID
+from vanilla_gan.config import config, UNIQUE_RUN_ID
 from vanilla_gan.utils import get_device, print_training_progress, generate_image, save_models, make_directory_for_run
 from vanilla_gan.data import generate_noise, prepare_dataset
 from vanilla_gan.model import initialize_models
