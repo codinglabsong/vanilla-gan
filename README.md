@@ -46,6 +46,36 @@ bash scripts/run_train.sh
 This script calls `python -m vanilla_gan.train` which handles dataset preparation, model initialization and epoch loops.
 Hyper‑parameters may be adjusted by editing `config.yaml`.
 
+### Model Progress
+
+**Epoch0 Batch0**
+
+![epoch0_batch0](assets/epoch0_batch0.jpg)
+
+**Epoch0 Batch200**
+
+![epoch0_batch200](assets/epoch0_batch200.jpg)
+
+**Epoch1 Batch100**
+
+![epoch1_batch100](assets/epoch1_batch100.jpg)
+
+**Epoch2 Batch350**
+
+![epoch2_batch350](assets/epoch2_batch350.jpg)
+
+**Epoch4 Batch200**
+
+![epoch4_batch200](assets/epoch4_batch200.jpg)
+
+**Epoch13 Batch450**
+
+![epoch13_batch450](assets/epoch13_batch450.jpg)
+
+**Epoch26 Batch150**
+
+![epoch26_batch150](assets/epoch26_batch150.jpg)
+
 ## Repository Structure
 - `src/vanilla_gan/` – core modules with data loading, model definitions and training logic.
 - `data/` – where datasets and runs would be generated
