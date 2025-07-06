@@ -2,9 +2,6 @@
 
 **Vanilla GAN** is a PyTorch implementation of a Generative Adversarial Network trained on the MNIST digit dataset. The project provides lightweight scripts for data preparation and model training along with a configuration file for customizing hyper‑parameters.
 
-## Motivation
-This project was created in order to learn and implement GAN on a simple dataset. It was very helpful to understand not only how GAN works, but how to utilize this model through PyTorch. I hope to create more useful and impactful project based on this generative technology in the future.
-
 ## Features
 - **Configurable Training** – main parameters such as number of epochs, batch size and learning rate are defined in `config.yaml`:
   ```yaml
