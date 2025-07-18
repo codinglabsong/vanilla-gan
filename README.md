@@ -19,6 +19,9 @@
 - **Training Utilities** – images and model checkpoints are saved for each run under `data/runs/UNIQUE_RUN_ID`.
 - **Developer Tools** – linting with ruff and black
 
+> This repository is the PyTorch implementation of my blog post on the original GAN paper.
+> [The Easiest Guide to Understanding the Original GAN Paper, Actually!](https://codinglabsong.medium.com/the-easiest-guide-to-understand-the-original-gan-paper-actually-6f874765579c)
+
 ## Installation
 1. Install the core dependencies:
    ```bash
