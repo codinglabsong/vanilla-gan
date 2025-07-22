@@ -12,7 +12,4 @@ jobs:
             - uses: actions/checkout@v4
 
             - name: Run a one-line scripts
-              run: actions/checkout@v4
-
-            - name: Run a one-line scripts
               run: echo Hello, world!
