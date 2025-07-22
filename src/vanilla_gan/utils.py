@@ -18,9 +18,7 @@ def get_device():
 def make_directory_for_run():
     """Make a directory for this training run"""
     print(f"Preparing training run {UNIQUE_RUN_ID}")
-    if not os.path.exists(f"{data_dir}/runs"):
-        os.mkdir(f"{data_dir}/runs")
-    os.mkdir(f"{data_dir}/runs/{UNIQUE_RUN_ID}")
+    os.makedirs(os.path.join(data_dir, "runs", UNIQUE_RUN_ID), exist_ok=True)
 
 
 def generate_image(generator, epoch=0, batch=0, device=get_device()):
@@ -40,8 +38,7 @@ def generate_image(generator, epoch=0, batch=0, device=get_device()):
         plt.subplot(4, 4, i + 1)
         plt.imshow(image, cmap="gray")
         plt.axis("off")
-    if not os.path.exists(f"{data_dir}/runs/{UNIQUE_RUN_ID}/images"):
-        os.mkdir(f"{data_dir}/runs/{UNIQUE_RUN_ID}/images")
+    os.makedirs(os.path.join(data_dir, "runs", UNIQUE_RUN_ID, "images"), exist_ok=True)
     plt.savefig(f"{data_dir}/runs/{UNIQUE_RUN_ID}/images/epoch{epoch}_batch{batch}.jpg")
 
 
