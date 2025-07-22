@@ -10,5 +10,6 @@ setup(
         "numpy",
         "torch",
         "torchvision",
+        "matplotlib",
     ],
 )
