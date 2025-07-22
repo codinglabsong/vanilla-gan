@@ -17,7 +17,7 @@
 - **Automatic Dataset Download** – the `prepare_dataset` function downloads MNIST and returns a `DataLoader` with normalized tensors.
 - **Simple Network Architecture** – generator and discriminator are built from fully connected layers.
 - **Training Utilities** – images and model checkpoints are saved for each run under `data/runs/UNIQUE_RUN_ID`.
-- **Developer Tools** – linting with ruff and black
+- **Developer Tools & CI** – linting with ruff and black, end‐to‐end smoke test in GitHub Actions
 
 > This repository is the PyTorch implementation of my blog post on the original GAN paper.
 > [The Easiest Guide to Understanding the Original GAN Paper, Actually!](https://codinglabsong.medium.com/the-easiest-guide-to-understand-the-original-gan-paper-actually-6f874765579c)
